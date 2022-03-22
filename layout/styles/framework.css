@@ -74,7 +74,7 @@ label{margin-bottom:5px;}
 --------------------------------------------------------------------------------------------------------------- */
 h1, .heading{margin:0 0 20px 0; font-size:32px; line-height:normal; font-weight:normal; text-transform:capitalize;}
 h2, .heading{margin:0 0 15px 0; font-size:28px; line-height:normal; font-weight:normal; text-transform:capitalize;}
-h3, .heading{margin:0 0 10px 0; font-size:26px; line-height:normal; font-weight:normal; text-transform:capitalize;}
+h3, .heading{margin:0 0 10px 0; font-size:26px; line-height:normal; font-weight:normal; /*text-transform:capitalize;*/}
 h4, .heading{margin:0 0 5px 0; font-size:24px; line-height:normal; font-weight:normal; text-transform:none;}
 h4, h5, h6, .heading{margin:0 0 5px 0; font-size:20px; line-height:normal; font-weight:normal; text-transform:none;}
 .heading.nospace{margin-bottom:0;}
