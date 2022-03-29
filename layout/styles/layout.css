@@ -295,10 +295,10 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 .imgover, .imgover:hover::after{color:#95103B;}
 
 
-/* Rows */
+/* Rows #be7520 */
 .row0{color:#e9d9c3; background-color:#3f2d24;}
 .row1{color:#000000; background-color:#fcf3ec;}
-.row1 a{color:#be7520;}
+.row1 a{color:#a16a2b;}
 .row2{color:#000000; background-color:#ccc6c4;}
 .row3{color:#000000; background-color:#f5e5ccbb;}
 .row4{color:#000000; background-color:#d8d1c6a9;}
