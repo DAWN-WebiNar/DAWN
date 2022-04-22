@@ -301,8 +301,13 @@ input:focus, textarea:focus, *:required:focus{border-color:#95103B;}
 .row1{color:#000000; background-color:#fcf3ec;}
 .row1 a{color:#a16a2b;}
 .row2{color:#000000; background-color:#ccc6c4;}
+
 .row3{color:#000000; background-color:#f5e5ccbb;}
+.row3 a{color:#ae783a;}
+
 .row4{color:#000000; background-color:#d8d1c6a9;}
+.row4 a{color:#2d2f8b;}
+
 .row5, .row5 a{color:#C1C2C4; background-color:#2A2D34;}
 
 .gradient{color:#FFFFFF; background:linear-gradient(to bottom right, #8F9297, #C1C2C4);}
