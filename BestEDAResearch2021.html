@@ -170,7 +170,7 @@ Licence URI: https://www.os-templates.com/template-terms
 			<div class="">
 				<h2>Talk 1: Hardware/Software Co-Exploration of Neural Architectures (Best Paper Award in IEEE TCAD)<br>(10AM-10:20AM, EDT/UTC-4, April 11, 2022)</h2>
 				<h3 style="text-align:center;">
-					<iframe width="500" height="400" src="https://www.youtube.com/embed/eKYRxjw5EgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/eKYRxjw5EgI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</h3>
 				<p style="text-align: justify;">We propose a novel hardware and software co-exploration framework for efficient neural architecture search (NAS). Different from existing hardware-aware NAS which assumes a fixed hardware design and explores the NAS space only, our framework simultaneously explores both the architecture search space and the hardware design space to identify the best neural architecture and hardware pairs that maximize both test accuracy and hardware efficiency. Such a practice greatly opens up the design freedom and pushes forward the Pareto frontier between hardware efficiency and test accuracy for better design tradeoffs. The framework iteratively performs a twolevel (fast and slow) exploration. Without lengthy training, the fast exploration can effectively fine-tune hyperparameters and prune inferior architectures in terms of hardware specifications, which significantly accelerates the NAS process. Then, the slow exploration trains candidates on a validation set and updates a controller using the reinforcement learning to maximize the expected accuracy together with the hardware efficiency. In this article, we demonstrate that the co-exploration framework can effectively expand the search space to incorporate models with high accuracy, and we theoretically show that the proposed two-level optimization can efficiently prune inferior solutions to better explore the search space. The experimental results on ImageNet show that the co-exploration NAS can find solutions with the same accuracy, 35.24% higher throughput, 54.05% higher energy efficiency, compared with the hardware-aware NAS.</p>
 				
@@ -190,7 +190,10 @@ Licence URI: https://www.os-templates.com/template-terms
 		<!-- ################################################################################################ -->
 		<div class="wrapper row4" id="talk2">
 			<div>
-				<h2 >Talk 2: BOOM-Explorer: RISC-V BOOM Microarchitecture Design Space Exploration Framework (Best Paper Award in ICCAD)<br>(10:20AM-10:40AM, EDT/UTC-4, April 11, 2022)</h2>
+				<h2 >Talk 2: BOOM-Explorer: RISC-V BOOM Microarchitecture Design Space Exploration Framework (Best Paper Award in ICCAD)<br>(10:20AM-10:40AM, EDT/UTC-4, April 11, 2022)</h2>				
+				<h3 style="text-align:center;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/0r3mdQdlxuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</h3>
 				<p style="text-align: justify;">The microarchitecture design of a processor has been increasingly difficult due to the large design space and time-consuming verification flow. Previously, researchers rely on prior knowledge and cycle-accurate simulators to analyze the performance of different microarchitecture designs but lack sufficient discussions on methodologies to strike a good balance between power and performance. This work proposes an automatic framework to explore microarchitecture designs of the RISCV Berkeley Out-of-Order Machine (BOOM), termed as BOOM-Explorer, achieving a good trade-off on power and performance. Firstly, the framework utilizes an advanced microarchitecture-aware active learning (MicroAL) algorithm to generate a diverse and representative initial design set. Secondly, a Gaussian process model with deep kernel learning functions (DKL-GP) is built to characterize the design space. Thirdly, correlated multi-objective Bayesian optimization is leveraged to explore Pareto-optimal designs. Experimental results show that BOOM-Explorer can search for designs that dominate previous arts and designs developed by senior engineers in terms of power and performance within a much shorter time.</p>
 			</div>
 			<hr>
@@ -208,14 +211,16 @@ Licence URI: https://www.os-templates.com/template-terms
 				<h4>cbai@cse.cuhk.edu.hk</h4>
 				<p style="text-align: justify;">I am currently a second-year Ph.D. student at the Department of Computer Science and Engineering of The Chinese University of Hong Kong under the supervision of Prof. Bei Yu and co-supervised by Prof. Martin D.F. Wong. Previously, I received my B.Eng. from The University of Electronic Science and Technology of China (UESTC) in 2020.</p>
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/0r3mdQdlxuk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>		
+			</div>		
 
 		<!-- ################################################################################################ -->
 
 		<div class="wrapper row3" id="talk3">
 			<div>
 				<h2 >Talk 3: APOLLO: An Automated Power Modeling Framework for Runtime Power Introspection in High-Volume Commercial Microprocessors (Best Paper Award in MICRO)<br>(10:40AM-11AM, EDT/UTC-4, April 11, 2022)</h2>
+				<h3 style="text-align:center;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/-Y7aPXjVKek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</h3>			
 				<p style="text-align: justify;">Accurate power modeling is crucial for energy-efficient CPU design and runtime management. An ideal power modeling framework needs to be accurate yet fast, achieve high temporal resolution (ideally cycle-accurate) yet with low runtime computational overheads, and easily extensible to diverse designs through automation. Simultaneously satisfying such conflicting objectives is challenging and largely unattained despite significant prior research. In this talk, I will introduce our work APOLLO with multiple key attributes. First, it supports fast and accurate design-time power model simulation, handling millions-of-cycles benchmarks in minutes with an emulator. Second, it incorporates an unprecedented low-cost runtime on-chip power meter in CPU RTL for per-cycle power tracing. Third, the development process of this method is fully automated and applies to any given design solution. This method has been validated on high-volume commercial microprocessors Neoverse N1 and Cortex-A77. </p>
 			</div>
 			<hr>
@@ -226,13 +231,15 @@ Licence URI: https://www.os-templates.com/template-terms
 				<h4>eezhiyao@ust.hk</h4>
 				<p style="text-align: justify;">I am an Assistant Professor at the ECE Department of Hong Kong University of Science and Technology (HKUST). I received my Ph.D. degree from ECE Department of Duke University in 2022, advised by Prof. Yiran Chen and Prof. Hai (Helen) Li and B.Eng. degree from City University of Hong Kong in 2017. My research interests include cross-disciplinary topics in electronic design automation, VLSI design, computer architecture, and machine learning. I am especially experienced in machine learning for hardware design. I am the recipient of MICRO 2021 Best Paper Award.</p>
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/-Y7aPXjVKek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+			</div>
 
 		<!-- ################################################################################################ -->
 		<div class="wrapper row4" id="talk4">
 			<div>
 				<h2 >Talk 4: Gemmini: Enabling Systematic Deep-Learning Architecture Evaluation via Full-Stack Integration (Best Paper Award in DAC)<br>(11AM-11:20AM, EDT/UTC-4, April 11, 2022)</h2>
+				<h3 style="text-align:center;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/g5uQU7tUoaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</h3>
 				<p style="text-align: justify;">DNN accelerators are often developed and evaluated in isolation without considering the cross-stack, system-level effects in real-world environments. This makes it difficult to appreciate the impact of Systemon-Chip (SoC) resource contention, OS overheads, and programming-stack inefficiencies on overall performance/energy-efficiency. To address this challenge, we present Gemmini, an open-source, full-stack DNN accelerator generator. Gemmini generates a wide design-space of efficient ASIC accelerators from a flexible architectural template, together with flexible programming stacks and full SoCs with shared resources that capture system-level effects. Gemmini-generated accelerators have also been fabricated, delivering up to three orders-of-magnitude speedups over high-performance CPUs on various DNN benchmarks.</p>
 			</div>
 			<hr>
@@ -243,13 +250,15 @@ Licence URI: https://www.os-templates.com/template-terms
 				<h4>ysshao@berkeley.edu</h4>
 				<p style="text-align: justify;">I am an Assistant Professor and an SK Hynix Faculty Fellow at the Electrical Engineering and Computer Sciences department of University of California, Berkeley. Previously, I was a Senior Research Scientist at NVIDIA Research. I received my Ph.D. degree in 2016 and S.M. degree in 2014 from Harvard University. My research interests are in the area of computer architecture, with a special focus on specialized accelerator, heterogeneous architecture, and agile VLSI design methodology. My work has been awarded the Best Paper Award at DAC 2021, the Best Paper Award at JSSC 2020, a Best Paper Award at MICRO 2019, Top Picks in Computer Architecture (2014), and Honorable Mentions (2019*2). My Ph.D. dissertation was nominated by Harvard for ACM Doctoral Dissertation Award. I am an SK Hynix Faculty Fellow and a recipient of a Google Faculty Rising Stars Award in Systems Research, a Facebook Research Award, and the inaugural Dr. Sudhakar Yalamanchili Award.</p>
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/g5uQU7tUoaY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+			</div>
 		
 		<!-- ################################################################################################ -->
 		<div class="wrapper row3" id="talk5">
 			<div>
 				<h2 >Talk 5: DREAMPlace: Deep Learning Toolkit-Enabled GPU Acceleration for Modern VLSI Placement (Best Paper Award in IEEE TCAD)<br>(10AM-10:20AM, EDT/UTC-4, April 12, 2022)</h2>
+				<h3 style="text-align:center;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/9cssweZ-rOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</h3>
 				<p style="text-align: justify;">Placement for very large-scale integrated (VLSI) circuits is one of the most important steps for design closure. We propose a novel GPU-accelerated placement framework DREAMPlace, by casting the analytical placement problem equivalently to training a neural network. Implemented on top of a widely adopted deep learning toolkit PyTorch, with customized key kernels for wirelength and density computations, DREAMPlace can achieve around 40× speedup in global placement without quality degradation compared to the state-of-the-art multithreaded placer RePlAce. We believe this work shall open up new directions for revisiting classical EDA problems with advancements in AI hardware and software.</p>
 				
 			</div>
@@ -261,14 +270,16 @@ Licence URI: https://www.os-templates.com/template-terms
 				<h4>yibolin@pku.edu.cn</h4>
 				<p style="text-align: justify;">I am an assistant professor in the School of Integrated Circuits at Peking University. I received the Ph.D. degree in Electrical and Computer Engineering from the University of Texas at Austin in 2018 advised by Prof. David Z. Pan and the B.S. degree in Microelectronics from Shanghai Jiaotong University in 2013. My research interests include physical design, machine learning applications, emerging technology in VLSI CAD, and hardware acceleration. I am a recipient of the Best Paper Awards at DATE 2022, TCAD 2021, DAC 2019, Integration, the VLSI Journal 2018, and SPIE Advanced Lithography Conference 2016.</p>
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/9cssweZ-rOg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+			</div>
 
 		<!-- ################################################################################################ -->
 
 		<div class="wrapper row4" id="talk6">
 			<div>
 				<h2 >Talk 6: TreeNet: Deep Point Cloud Embedding for Routing Tree Construction (Best Paper Award in ASP-DAC)<br>(10:20AM-10:40AM, EDT/UTC-4, April 12, 2022)</h2>
+				<h3 style="text-align:center;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Ypr4KK4Foow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</h3>
 				<p style="text-align: justify;">In the routing tree construction, both wirelength (WL) and pathlength (PL) are of importance. Among all methods, PD-II and SALT are the two most prominent ones. However, neither PD-II nor SALT always dominates the other one in terms of both WL and PL for all nets. In addition, estimating the best parameters for both algorithms is still an open problem. In this paper, we model the pins of a net as point cloud and formalize a set of special properties of such point cloud. Considering these properties, we propose a novel deep neural net architecture, TreeNet, to obtain the embedding of the point cloud. Based on the obtained cloud embedding, an adaptive workflow is designed for the routing tree construction. Experimental results show that the proposed TreeNet is superior to other mainstream models for the point cloud on classification tasks. Moreover, the proposed adaptive workflow for the routing tree construction outperforms SALT and PD-II in terms of both efficiency and effectiveness.</p>
 			</div>
 			<hr>
@@ -279,14 +290,16 @@ Licence URI: https://www.os-templates.com/template-terms
 				<h4>yuzhema@ust.hk</h4>
 				<p style="text-align: justify;">I am an Assistant Professor at the Microelectronics Thrust of The Hong Kong University of Science and Technology (Guangzhou) . Previously, I was a Senior Research Scientist at Huawei Hong Kong Research Center. I received my Ph.D. degree in 2020 from The Chinese University of Hong Kong advised by Prof. Bei Yu. My research interests are on the cross-disciplinary study of electronic design automation and machine learning, including agile VLSI design methodologies, machine learning-aided VLSI design, and hardware-friendly machine learning. I am a recipient of the Best Paper Awards at ICCAD 2021, ASPDAC 2021, and ICTAI 2019.</p>
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Ypr4KK4Foow" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+			</div>
 
 		<!-- ################################################################################################ -->
 
 		<div class="wrapper row3" id="talk7">
 			<div>
 				<h2 >Talk 7: Intermittent-Aware Neural Architecture Search (Best Paper Award in CODES+ISSS)<br>(10:40AM-11AM, EDT/UTC-4, April 12, 2022)</h2>
+				<h3 style="text-align:center;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/Iook0IzIqwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</h3>
 				<p style="text-align: justify;">Intermittently executing deep neural network (DNN) inference powered by ambient energy, paves the way for sustainable and intelligent edge applications. Neural architecture search (NAS) has achieved great success in automatically finding highly accurate networks with low latency. However, we observe that NAS attempts to improve inference latency by primarily maximizing data reuse, but the derived solutions when deployed on intermittent systems may be inefficient, such that the inference may not satisfy an end-to-end latency requirement and, more seriously, they may be unsafe given an insufficient energy budget. This work proposes iNAS, which introduces intermittent execution behavior into NAS. In order to generate accurate neural networks and corresponding intermittent execution designs that are safe and efficient, iNAS finds the right balance between data reuse and the costs related to progress preservation and recovery, while ensuring the power-cycle energy budget is not exceeded. The solutions found by iNAS and an existing HW-NAS were evaluated on a Texas Instruments device under intermittent power, across different datasets, energy budgets and latency requirements. Experimental results show that in all cases the iNAS solutions safely meet the latency requirements, and substantially improve the end-to-end inference latency compared to the HW-NAS solutions.</p>
 			</div>
 			<hr>
@@ -303,13 +316,15 @@ Licence URI: https://www.os-templates.com/template-terms
 				<h4>rosh.mendis@citi.sinica.edu.tw</h4>
 				<p style="text-align: justify;">Hashan Roshantha Mendis is currently a Postdoctoral Research Fellow at the Research Center for Information Technology Innovation (CITI), Academia Sinica, Taiwan. He received his MSc. and Eng.D degrees respectively from the Department of Electronics and Department of Computer Science in the University of York, UK, in 2011 and 2017. His research interests include intermittently-powered embedded systems, embedded deep learning, as well as the design and optimization of multi/many-core systems. His work has received the Best Paper Award at CODES+ISSS 2020 and 2021, nominated for the Best Paper Award at CODES+ISSS 2019 and the Best Student Paper Award at SIGMAP 2016.</p>
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/Iook0IzIqwE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+			</div>
 
 		<!-- ################################################################################################ -->
 		<div class="wrapper row4" id="talk8">
 			<div>
 				<h2 >Talk 8: A GPU-accelerated Deep Stereo-LiDAR Fusion for Real-time High-precision Dense Depth Sensing (Best Paper Award in DATE)<br>(11AM-1:20AM, EDT/UTC-4, April 12, 2022)</h2>
+				<h3 style="text-align:center;">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/cs9v696L_tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				</h3>
 				<p style="text-align: justify;">Active LiDAR and stereo vision are the most commonly used depth sensing techniques in autonomous vehicles. Each of them alone has weaknesses in terms of density and reliability and thus cannot perform well on all practical scenarios. Recent works use deep neural networks (DNNs) to exploit their complementary properties, achieving a superior depth-sensing. However, these state-of-the-art solutions are not satisfactory on real-time responsiveness due to the high computational complexities of DNNs. In this paper, we present FastFusion, a fast deep stereo-LiDAR fusion framework for real-time high-precision depth estimation. FastFusion provides an efficient two-stage fusion strategy that leverages binary neural network to integrate stereoLiDAR information as input and use cross-based LiDAR trust aggregation to further fuse the sparse LiDAR measurements in the back-end of stereo matching. More importantly, we present a GPU-based acceleration framework for providing a low latency implementation of FastFusion, gaining both accuracy improvement and real-time responsiveness. In the experiments, we demonstrate the effectiveness and practicability of FastFusion, which obtains a significant speedup over state-of-the-art baselines while achieving comparable accuracy on depth sensing.</p>
 			</div>
 			<hr>
@@ -326,8 +341,7 @@ Licence URI: https://www.os-templates.com/template-terms
 				<h4>Haitao.meng@tum.de</h4>
 				<p style="text-align: justify;">Haitao Meng currently is studying for his PhD degree at Technical University of Munich under the supervision of Prof. Alois Knoll and co-supervised by Prof. Gang Chen. He received M.Sc degree in computer science from Northeastern University, China. He is a recipient of the best paper award on DATE 2021 and best paper candidate award on CODES+ISSS 2020. His research interests include stereo estimation, high-performance computing, and real-time images processing.</p>
 			</div>
-			<iframe width="560" height="315" src="https://www.youtube.com/embed/cs9v696L_tU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-		</div>
+			</div>
 
 		<!-- ################################################################################################ -->
 
